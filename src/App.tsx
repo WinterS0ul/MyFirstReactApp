@@ -1,21 +1,19 @@
 import React from "react";
-import logo from './logo.svg';
 import './App.css';
 import DisplayAllUsers from "./Components/UserManagment/DisplayAllUsers";
+import Logo from "./Components/Buttons/Logo";
 
 function App() {
-
   return (
     <>
       <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Logo/>
         <DisplayAllUsers/>
       </header>
     </div>
   </>
   );
-
 }
 
 export default App;
