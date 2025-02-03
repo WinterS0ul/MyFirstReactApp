@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import axiosInstance from "../../api/axiosInstance";
-import { User } from "../../types/User";
+import axiosInstance from "../../Api/axiosInstance";
+import { User } from "../../Types/User";
 
 const DisplayAllUsers = () => {
   const [users, setUsers] = useState<User[]>([]); // Use the User type
